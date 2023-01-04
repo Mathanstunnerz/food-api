@@ -1,0 +1,141 @@
+body{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/441/38/477/pepper-carnation-spices-diversity-wallpaper-preview.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+background-repeat: no-repeat;
+}
+.main_body{
+
+   display: inline-block;;
+   margin-top: 50px;
+
+    
+}
+.form_index{
+
+    display: inline-block;;
+}
+
+.user_bar{
+
+    width: 30%;
+    height: fit-content;
+    /* margin: 7% 0% 0% 5%; */
+    padding: 10px;
+    display:inline-block;
+     justify-content: center;
+    display: inline-block;
+         
+    background-image:radial-gradient(rgba(0, 0, 0,0.7),rgba(0, 0, 0,0.7)) ;
+
+  border-radius: 10px; 
+}   
+
+.navbar{
+    justify-content: center;
+    width: 400px;
+    
+    display: block;
+    
+    
+}
+.search_bar_index{
+    position: relative;
+    /* top: 50px; */
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    width: 300px;
+    height: 350px;
+    border-radius: 20px;
+    background-color: rgb(255, 174, 0,0.9);
+    /* opacity: 0.7; */
+}
+.input_bar{
+    background-color:transparent ;
+    border-radius: 5px;
+    border-color: rgb(179, 101, 0);
+    display: flex;
+    position: relative;
+    outline: none;
+    height: 35px;
+    /* width: 220px; */
+}
+.form_align{
+     display: flex;
+     flex-direction: column;
+    justify-content:center ;
+}
+.submit_button{
+    display: flex;
+    position: relative;
+    justify-content:center ;
+    top: 10px;
+    /* width: 220px; */
+}
+.discription{
+    /* display: flex; */
+   
+    width: 60%;
+    height: 27rem;
+     position: absolute;
+    margin-left: 10px;
+    display:inline-block;
+    
+    background-image:radial-gradient(rgba(0, 0, 0,0.7),rgba(0, 0, 0,0.7)) ;
+   overflow-y: scroll;
+  border-radius: 10px;
+
+}
+.dish_img{
+    display: inline-block;
+    width: 40%;
+    position: relative;
+    padding-left: 40px;
+}
+#discription_inside{
+   
+    width: 93%;
+    height: 20rem;
+     position: relative;
+    margin: 10px;
+    display:inline-block;
+    
+    background-image:radial-gradient(rgba(0, 0, 0, 0.7),rgba(119, 119, 119, 0.7)) ;
+
+  border-radius: 10px;
+
+}
+.heading{
+    width: 60%;
+    position: relative;
+    margin-top: 20px;
+    left: 40px;
+    color: rgb(255, 255, 255);
+}
+.discription_line{
+    position: relative;
+    padding-left: 40px;
+    color: rgb(255, 255, 255);
+    
+}
+ ol,li{
+    
+    color: rgb(255, 255, 255);
+    
+}
+.discription_container{
+    width: 100%;
+    height: 220px;
+    
+    overflow-y: scroll;
+}
+::-webkit-scrollbar-thumb{
+   border-radius: 10px;
+  background-color:  rgb(255, 174, 0)
+}
+::-webkit-scrollbar{
+    width: 6px;
+   
+    background-color: transparent;
+}
