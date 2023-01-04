@@ -7,7 +7,7 @@ submit_button_1.addEventListener("click",(e)=>{
     var input_bar = document.querySelector('.input_bar');
     var input_bar_value = input_bar.value
     // console.log(input_bar_value)
-    console.log("clicking")
+    // console.log("clicking")
    
 
     input_bar.value = ''
@@ -23,7 +23,7 @@ async function recipes(){
     let food_name = await fetch(api)
     let food_name_json = await food_name.json()
      var food_result =  food_name_json.results
-     console.log(food_result);
+    //  console.log(food_result);
  
     for(let i=0; i<food_result.length; i++){
         var id_ =  food_result[i].id
@@ -33,7 +33,7 @@ async function recipes(){
     var api2 =`https://api.spoonacular.com/recipes/${id_}/information?includeNutrition=false&apiKey=e513f8790be242e4aa69d755c37d1e0b`
     let information_id = await fetch(api2)
     let information_id_json = await information_id.json()
-    console.log(information_id_json)
+    // console.log(information_id_json)
     // for(let i of information_id_json){
     //     console.log(i)
     // }
@@ -41,7 +41,7 @@ async function recipes(){
     let img = information_id_json.image
     let summary = information_id_json.instructions
    
-    console.log(get_tittle)
+    // console.log(get_tittle)
 
 
     var  main = document.querySelector(".discription")
